@@ -10,8 +10,8 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const cors = require('cors')
-app.use(cors())
+// const cors = require('cors')
+// app.use(cors())
 
 
 // Definindo rotas
