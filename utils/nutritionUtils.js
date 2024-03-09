@@ -1,6 +1,5 @@
 require('dotenv').config();
 const axios = require('axios')
-const request = require('request');
 
 class NutritionUtils {
     static calculateBMI(weight, height, unit) {
